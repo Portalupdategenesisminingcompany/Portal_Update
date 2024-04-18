@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deposit Page | Genesis Mining Company</title>
+
+  <link rel="stylesheet" href="style.css">
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #485E95;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #485E95;
+    text-align: center;
+  }
+  .options {
+    margin-bottom: 20px;
+  }
+  .option {
+    padding: 10px;
+    background-color: #485E95;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .option:hover {
+    background-color: #485E95;
+  }
+  .bank-details {
+    margin-top: 20px;
+  }
+  .bank-details p {
+    margin: 5px 0;
+  }
+  
+  h1 {
+    color: #007bff;
+    text-align: center;
+  }
+  .upload-btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .upload-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  }
+  #preview {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .imgs {
+      padding-left: 2.5px;
+  }
+</style>
+</head>
+<body>
+    
+<div class="imgs">
+        <img src="main.jpeg" alt="">
+   </div>
+   
+<div class="container">
+  <h1>DEPOSIT OPTIONS FROM GENESIS MINGING CONFIRMATION PORTAL</h1>
+  
+  
+  <div class="options">
+      
+    <div class="option"><em><strong>Note: Copy Address/Account Number And Account Name And Paste On Your Required Withdrawal/Send Option From Your Sending Crypto Currency Application/Bank.</strong></em>
+    <br>
+    <br>
+    <div class="container3">
+  <h1>Deposit Amount</h1>
+  <input type="number" id="withdrawAmount" placeholder="$ Enter amount to deposit $"  min="0" step="0.01">
+</div>
+  
+    <br>
+     <h2>Deposit to BTC Address:</h2> bc1qsh6ty3prqhaejdhygsr4lkkfnzz9ts7e3f6x4u
+    </div>
+    <br>
+    <br>
+    <div class="option">
+     <h2>Deposit to USDT Address:</h2> TQ36DZA43fiVcRpTQA93cK7Ag8SzLF5fyY
+     
+       <div class="bank-details">
+           <h2>
+    <p>Bank Account Details:</p>
+            </h2>
+    <p>Account Number: Null</p>
+    <p>Account Name: Null</p>
+    <p>Bank Name: Null</p>
+  </div>
+</div>
+<div class="container">
+  <h1>Upload Image</h1>
+  
+  <input type="file" id="fileInput" accept="image/*" onchange="displayImage(event)">
+  <label for="fileInput"></label>
+  <br>
+  <br>
+  <img id="previewImage" src="#" alt="Uploaded Image" style="display: none;">
+  
+  <button onclick="sendEmail()"><a href="dashboard">Send Image</a></button>
+</div>
+
+
+<section class="about" id="about">
+
+<h1 class="heading">About Our Company</h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/main3.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>World Best Crypto Mining And Real Estate Development.</h3>
+        <p><b>Genesis Mining Company is a leading entity in both the cryptocurrency mining and real estate development sectors. With a commitment to innovation and sustainability, Genesis Mining Company has established itself as a prominent player in these industries. Their expertise in crypto mining ensures efficient and profitable operations, utilizing cutting-edge technology to mine various cryptocurrencies. Additionally, their ventures in real estate development demonstrate a diversification strategy aimed at long-term growth and stability. By integrating these two sectors, Genesis Mining Company exemplifies forward-thinking entrepreneurship in the rapidly evolving landscape of digital assets and real estate.</p>
+        <p> <i class="fas fa-check-circle"></i> Attractive Interface with Many Options </p>
+        <p> <i class="fas fa-check-circle"></i> Deals On Real Estate Investment </p>
+        <p> <i class="fas fa-check-circle"></i> Live Chat And Instant Notification </p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- features section starts  --><br>
+
+<!-- product section starts  -->
+
+<section class="product" id="product">
+
+<h1 class="heading">Our Awesome Products. Choose Best One</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="w1.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Silver Plan</h3>
+            <p>The Silver Plan offered by Genesis Mining Company provides investors with an accessible entry point into the world of cryptocurrency mining. Designed to suit various budgets and investment goals, the Silver Plan offers a balanced combination of hash power and contract duration. Investors can purchase hash power for mining popular cryptocurrencies such as Bitcoin, Ethereum, or Litecoin, depending on their preferences. With flexible contract options and transparent pricing, the Silver Plan enables investors to participate in cryptocurrency mining with ease and confidence. Whether for individuals looking to diversify their investment portfolio or institutions seeking exposure to the crypto market, the Silver Plan offers a practical and scalable solution through Genesis Mining Company.</p>
+            <div class="price">$150</div>
+            <a href="#"><button class="btn">add to cart</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="w2.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Gold Plan</h3>
+            <p>The Gold Plan offered by Genesis Mining Company represents a comprehensive investment package tailored for individuals seeking exposure to cryptocurrency mining. This plan provides investors with access to cutting-edge mining hardware and infrastructure, allowing them to participate in the lucrative world of cryptocurrency mining without the need for technical expertise or significant capital investment. The Gold Plan typically offers higher hash rates and more favorable terms compared to basic packages, enabling investors to maximize their mining rewards and potential returns. With a focus on transparency, reliability, and profitability, the Gold Plan embodies Genesis Mining Company's commitment to democratizing access to cryptocurrency mining opportunities for investors worldwide.</p>
+            <div class="price">250</div>
+            <a href="#"><button class="btn">add to cart</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="w3.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Platinum Plan</h3>
+            <p>The Platinum Plan offered by Genesis Mining Company represents an advanced tier of cryptocurrency mining services. Tailored for investors seeking premium features and higher returns, the Platinum Plan provides access to cutting-edge mining hardware and optimized mining algorithms. With increased hash power and efficiency, clients can expect enhanced profitability and performance compared to lower-tier plans. The Platinum Plan underscores Genesis Mining Company's commitment to catering to the diverse needs of its clientele and delivering top-tier solutions in the competitive landscape of cryptocurrency mining.</p>
+            <div class="price">$600</div>
+            <a href="#"><button class="btn">add to cart</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="w4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Premium Plan</h3>
+            <p>The Premium Plan offered by Genesis Mining Company represents a tailored solution for clients seeking enhanced benefits and features. This plan typically provides access to higher mining hash rates, increased mining rewards, priority customer support, and exclusive bonuses or discounts. Designed for investors looking to maximize their returns and optimize their mining experience, the Premium Plan reflects Genesis Mining Company's commitment to catering to the diverse needs of its clientele. By offering this tiered approach, the company ensures that clients can choose the plan that best aligns with their investment goals and preferences, thereby fostering a mutually beneficial relationship.</p>
+            <div class="price">$1500</div>
+            <a href="#"><button class="btn">add to cart</button></a>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- product section ends -->
+
+<!-- contact section starts  -->
+
+
+
+<!-- footer section starts  -->
+<br>
+<div class="footer">
+
+    <h1 class="credit">Created By<a href="#"> | nowtext081@gmail.com</a> | all rights reserved </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+
+
+
+<script>
+function displayImage(event) {
+  var image = document.getElementById('previewImage');
+  image.style.display = 'block';
+  image.src = URL.createObjectURL(event.target.files[0]);
+}
+
+function sendEmail() {
+  // Here you would write JavaScript code to send the image via email
+  // This would typically involve making an AJAX request to a server-side script
+  // which handles the email sending process, such as PHP.
+  // However, JavaScript alone cannot send emails directly.
+  // Below is a placeholder function to demonstrate the concept.
+  alert('Email sent successfully!');
+}
+</script>
+
+
+</body>
+</html>
+
+
+    </div>
+  </div>
+  
+
+</body>
+</html>
